@@ -7,6 +7,7 @@ import { addItem } from './CreateSlice';
 
 function AboutUs() {
   return (
+     <div class="aboutus_container">
     <div className="about-us-container">
       {/* <h1 className="about-us-heading">About Us</h1> */}
       <p className="about-us-description">
@@ -35,6 +36,7 @@ function AboutUs() {
         doorstep.
       </p>
     </div>
+       </div>
   );
 }
 
