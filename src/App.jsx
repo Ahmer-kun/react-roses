@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 import ProductList from './ProductList';
 import './App.css';
 import AboutUs from './AboutUs';
-
+/*
 import { BrowserRouter } from 'react-router-dom';
 
 <BrowserRouter basename="/react-roses">
   <App />
 </BrowserRouter>
-
+*/
 function App() {
   
   const [showProductList, setShowProductList] = useState(false);
